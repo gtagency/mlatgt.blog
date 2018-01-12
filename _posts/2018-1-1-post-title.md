@@ -29,11 +29,17 @@ An empty line between text creates a new paragraph.
 The lack of an empty line stays in the same paragraph.
 
 ## This is a sub header
+Alright you're getting the hang of this.
+
+This is also a sub header
+-------------------------
 You can go even further:
 
 ### This is a sub sub header
 ### This is another one, right after
 That's a lot of substructure.
+
+> This is a quote
 
 # Adding media
 ## Code snippets
@@ -46,6 +52,10 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
+
+4 spaces indentation also create a code snippet:
+
+    some code
 
 ## Links
 This is a [link](google.com). You can also define [links][google] after the
@@ -67,7 +77,21 @@ For in-line TeX: \\(f(x)\\). For displayed mathematics:
 $$\alpha = f (a b) \implies \frac{a}{b} = 0$$
 
 ## References
-TODO
+You can add references [[^referencetag]] and footnotes [^anothertag], [^onelasttag].
+
+[^referencetag]: This is a reference. AUTHOR, First Name; Paper Title, arxiv/123.1234
+[^anothertag]:
+    This is a footnote
+
+    That has multiple paragraphs.
+
+[^onelasttag]:
+    This footnote has
+    > a quote
+
+    $$some = \LaTeX$$
+
+        and a code block (8 spaces indentation)
 
 ## Buttons
 If you want to add centered buttons, you may do so like this:
@@ -98,10 +122,7 @@ You can add :kissing_heart: emojis by checking their markups
 # Getting help
 For more help with this syntax, check out the [markdown documentation][mddocs].
 
-For help with the reference syntax, check out the [kramdown documentation][kddocs].
-
 For help with the LaTeX syntax, check out the [mathjax documentation][mjxdocs].
 
 [mddocs]: https://help.github.com/articles/basic-writing-and-formatting-syntax/ 
-[kddocs]: https://kramdown.gettalong.org/syntax.html
 [mjxdocs]: https://docs.mathjax.org/en/latest/
