@@ -4,7 +4,7 @@ date:   2018-1-1 00:00:00
 description: Some information to appear in the front page
 <!-- THE FOLLOWING ARE OPTIONAL LINES: -->
 <!-- thumbnail (width=100px, min-height=60px can be more): -->
-thumbnail: 2015/LongPost_thumbnail.png
+thumbnail: 2018/PostTitle_thumbnail.png
 authors:
 - Author 1: Institution 1
 - Author 2: Instutition 2
