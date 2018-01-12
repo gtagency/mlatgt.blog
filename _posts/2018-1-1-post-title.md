@@ -120,6 +120,9 @@ copy the html onto here, surrounded by `<center>` tags. It should look like this
 <p>You can add html directly on here too</p>
 <p>This is especially useful if you want to create interactive visualizations</p>
 
+If you're adding visualizations, please put any javascript required in
+`assets/js/201X/...js` where 201X is the current year.
+
 ## Emojis :poop:
 You can add :kissing_heart: emojis by checking their markups
 [here](https://gist.github.com/rxaviers/7360908).
