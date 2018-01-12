@@ -27,8 +27,3 @@ review.
 
 ## I don't like github
 Please contact one of the [editors](someone) for help with publishing your post.
-
-
-TODOs:
-about page needs to not be copy from BAIR
-this readme needs to be better
