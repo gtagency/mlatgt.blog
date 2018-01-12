@@ -424,10 +424,22 @@ thead th,th {
 	white-space: nowrap;
 }
 
-img {
+img .thumbnails {
 	width: 100%;
 	max-width: 100%;
 	border-radius: 3px;
+}
+
+.center-image {
+  margin: 0 auto;
+  display: block;
+}
+
+figcaption {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-style: italic;
 }
 
 /* emojis */

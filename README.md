@@ -1,8 +1,8 @@
 # ML@GT Blog
 
 Welcome to the ML@GT blog repo. If you'd like to contribute a post, please make
-sure you're signed in to Github ([create account](), [sign in]()), and [click here]() to
-start your new post.
+sure you're signed in to Github ([create account](), [sign in]()), and [click
+here](link that starts a PR and opens a template post) to start your new post.
 
 ## Help
 
@@ -27,3 +27,8 @@ review.
 
 ## I don't like github
 Please contact one of the [editors](someone) for help with publishing your post.
+
+
+TODOs:
+about page needs to not be copy from BAIR
+this readme needs to be better

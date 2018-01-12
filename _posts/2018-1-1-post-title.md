@@ -1,7 +1,7 @@
 ---
 title:  "Post Title"
 date:   2018-1-1 00:00:00
-description: Some information about the post (to appear in the front page)
+description: Some information to appear in the front page
 <!-- THE FOLLOWING ARE OPTIONAL LINES: -->
 <!-- thumbnail (width=100px, min-height=60px can be more): -->
 thumbnail: 2015/LongPost_thumbnail.png
@@ -29,6 +29,7 @@ An empty line between text creates a new paragraph.
 The lack of an empty line stays in the same paragraph.
 
 ## This is a sub header
+**This is bold**. _This is italics_.
 Alright you're getting the hang of this.
 
 This is also a sub header
@@ -66,10 +67,14 @@ fact, especially if you're reusing them.
 ## Images
 This is how you add an image:
 
-TODO
+![this is the alt text, you should describe the image here for acessibility](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg){: height="200px" width="200px" .center-image}
 
-### Image captions
-TODO
+You can use images hosted anywhere on the internet, or place images in the
+`assets/images/201X/...` directory of this repo (where 201X is the current
+year) and do:
+
+![this is the alt text, you should describe the image here for acessibility](/assets/images/2018/cat.jpg){:width="200px" .center-image}
+<figcaption>This is how you'd add a caption</figcaption>
 
 ## LaTeX
 For in-line TeX: \\(f(x)\\). For displayed mathematics:
