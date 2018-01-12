@@ -231,17 +231,33 @@ em, i { font-style: italic; }
 }
 
 .post h1 {
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	color: #222;
 	font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;
 }
 
 .post h2 {
-	margin-bottom: 40px;
-	  font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
-	  color: #111;
+	margin-top: 10px;
+	margin-bottom: 8px;
+  font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #111;
 }
 
+.post h3 {
+	margin-top: 10px;
+  margin-bottom: 8px;
+  font: 300 20px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #111;
+}
+
+.post header h1 {
+	margin-bottom: 20px;
+}
+
+.post header h2 {
+	margin-bottom: 40px;
+}
 
 .post h2.headline {
 	/*font: italic 22px/1.3em Georgia,serif;*/
@@ -260,7 +276,7 @@ em, i { font-style: italic; }
   /* margin-bottom: 15px; */
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .post author {
@@ -299,7 +315,11 @@ em, i { font-style: italic; }
 	border-radius: 3px;
 	background: #e2b026; /* previously: #5badf0; */
 	color: #fff;
-  margin: 15px 5px 0 5px;
+  margin: 0 5px 18px 5px;
+}
+
+.post header buttons a {
+  margin: 20px 5px 0 5px;
 }
 
 #post-list h2 {
@@ -409,6 +429,17 @@ img {
 	border-radius: 3px;
 }
 
+/* emojis */
+img.emoji {
+  height: 1.2em;
+  width: 1.2em;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
 /* Made with Cactus Badge */
 #badge {
 	position: absolute;
@@ -485,10 +516,11 @@ Post List
   width: 100px;
   flex-shrink: 0;
   flex-basis: 100px;
-  /* This is so it occupies all vertical space */
+  /* This is so it occupies all vertical space minheight: 60px */
 	top: 1px;
   bottom: 1px;
   height: 100%;
+  min-height: 60px;
   border-radius: 3px;
   /* The thumbnail image is a background image (to prevent overflow) */
   background-size: 100% auto;

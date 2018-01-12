@@ -7,9 +7,11 @@
           </a>
           <a href="{{ "/" | relative_url  }}{{ post.url | remove_first: '/' }}" class="thumbnail-wrapper">
             <aside class="dates">{{ post.date | date:"%b %d" }}</aside>
-            <aside class="thumbnails"
-              style="background-image: url({{ "/assets/images/" | relative_url }}{{ post.thumbnail }});">
-            </aside>
+            {% if post.thumbnail %}
+                <aside class="thumbnails"
+                  style="background-image: url({{ "/assets/images/" | relative_url }}{{ post.thumbnail }});">
+                </aside>
+            {% endif %}
           </a>
         </li>
     {% endfor %}

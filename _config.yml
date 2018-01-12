@@ -7,8 +7,10 @@ aboutPage: true
 markdown: kramdown
 highlighter: rouge
 
-plugins: [jekyll-paginate]
-paginate: 20
+plugins: 
+- jekyll-paginate
+- jemoji
+paginate: 15
 domain_name: 'http://mlatgt.blog'
 # TODO
 google_analytics: 'UA-XXXXXXXX-X'
