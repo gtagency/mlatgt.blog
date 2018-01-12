@@ -126,17 +126,22 @@ nav.main-nav a {
 	top: 8px;
 	right: 6px;
 	padding: 8px 12px;
-	color: #e2b026; /* previously: #5badf0; */
+  /* color: #eeb211; [> previously: #5badf0; <] */
+  color: #004f9f;
 	font-size: 13px;
-	/*font-weight: bold;*/
 	line-height: 1.35;
 	border-radius: 3px;
 
 }
 nav.main-nav a.cta {
-	background: #e2b026; /* previously: #5badf0; */
-	color: #fff;
+	background: #eeb211; /* previously: #5badf0; */
+  font-weight: bold;
+  color: #fff;
 	margin-left: 12px;
+}
+
+nav.main-nav a.cta:hover {
+  background: #f5d376;
 }
 
 #wrapper {
@@ -161,17 +166,24 @@ nav.main-nav a.cta {
 /* Typography */
 /*Accent color*/
 a,
-#title,
-#post-list a:hover,
-#post-list li:hover .dates,
+#title {
+  text-decoration: none;
+  color: #1879db;
+}
+
+a:hover,
 #title:hover {
-	text-decoration: none;
-	color: #e2b026; /* previously: #5badf0; */
-	color: #cc9c22; /* previously: #5694f1; */
+  color: #1879db;
+}
+
+#post-list a:hover,
+#post-list li:hover .dates {
+  text-decoration: none;
+  color: #eeb211;
 }
 
 p a {
-	color: #cc9c22; /* previously: #5694f1; */
+	color: #004f9f; /* previously: #5694f1; */
 }
 
 /*Transitions*/
@@ -309,14 +321,19 @@ em, i { font-style: italic; }
 	top: 8px;
 	right: 6px;
 	padding: 8px 12px;
-	color: #e2b026; /* previously: #5badf0; */
+	color: #eeb211; /* previously: #5badf0; */
 	font-size: 13px;
-	/*font-weight: bold;*/
+  font-weight: bold;
 	line-height: 1.35;
 	border-radius: 3px;
-	background: #e2b026; /* previously: #5badf0; */
-	color: #fff;
+	background: #eeb211; /* previously: #5badf0; */
+  color: #fff;
+  /* color: #00254c; */
   margin: 0 5px 18px 5px;
+}
+
+.post buttons a:hover {
+  background-color: #f5d376;
 }
 
 .post header buttons a {
@@ -725,7 +742,7 @@ h2.month {
 }
 
 #archive-list li a:hover,#archive-list li:hover .dates {
-	color: #cc9c22; /* previously: #5694f1; */
+	color: #eeb211; /* previously: #5694f1; */
 }
 
 #post-meta img.avatar {
@@ -746,7 +763,7 @@ h2.month {
 
 #post-list.archive.readmore a{
 	font: 400 16px/1.6 "Helvetica Neue",helvetica,Arial,sans-serif;
-	color: #cc9c22; /* previously: #5694f1; */
+	color: #eeb211;
 }
 
 #post-list.archive.readmore a:hover{
