@@ -67,13 +67,17 @@ fact, especially if you're reusing them.
 ## Images
 This is how you add an image:
 
-![this is the alt text, you should describe the image here for acessibility](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg){: height="200px" width="200px" .center-image}
+<center>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg" alt="this is the alt text, you should describe the image here for acessibility" height="200px" width="200px"/>
+</center>
 
 You can use images hosted anywhere on the internet, or place images in the
 `assets/images/201X/...` directory of this repo (where 201X is the current
 year) and do:
 
-![this is the alt text, you should describe the image here for acessibility](/assets/images/2018/cat.jpg){:width="200px" .center-image}
+<center>
+  <img src="/assets/images/2018/cat.jpg" alt=" is the alt text, you should describe the image here for acessibility" width="200px"/>
+</center>
 <figcaption>This is how you'd add a caption</figcaption>
 
 ## LaTeX
