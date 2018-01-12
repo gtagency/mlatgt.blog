@@ -1,5 +1,5 @@
 /* Reset */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,authors,author,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 *, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 /* Clearfix */
@@ -44,7 +44,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* Spacing */
 .post h1, h3, h4, h5, p, .post-body ul, #post-list li, pre {
-margin-bottom: 20px;
+margin-bottom: 18px;
 }
 
 /* Base */
@@ -70,8 +70,9 @@ h2 {
 }
 
 .profile #wrapper {
-	padding: 100px 40px 0px;
-	max-width: 600px;
+	/* padding: 100px 40px 0px; */
+  padding: 40px 40px 0px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
@@ -87,7 +88,7 @@ h2 {
 	display: inline-block;
 	width: 80px;
 	height: 80px;
-	border-radius: 50%;
+	/* border-radius: 50%; */
 	margin-bottom: 20px;
 }
 
@@ -101,7 +102,7 @@ h2 {
 .profile h2 {
 	font-size: 20px;
 	  font-weight: 300;
-	  color: #aaa;
+	  color: #888;
 	  margin-top: 10px;
 	  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	  font-style: normal;
@@ -125,7 +126,7 @@ nav.main-nav a {
 	top: 8px;
 	right: 6px;
 	padding: 8px 12px;
-	color: #5badf0;
+	color: #e2b026; /* previously: #5badf0; */
 	font-size: 13px;
 	/*font-weight: bold;*/
 	line-height: 1.35;
@@ -133,19 +134,19 @@ nav.main-nav a {
 
 }
 nav.main-nav a.cta {
-	background: #5badf0;
+	background: #e2b026; /* previously: #5badf0; */
 	color: #fff;
 	margin-left: 12px;
 }
 
 #wrapper {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 60px 40px 100px 40px;
 }
 
 #wrapper.home {
-	max-width: 600px;
+	max-width: 800px;
 	margin: 0 auto;
 	padding: 0px 40px 20px 40px;
 }
@@ -165,11 +166,13 @@ a,
 #post-list li:hover .dates,
 #title:hover {
 	text-decoration: none;
-	color: #5badf0;
-	color: #5694f1;
+	color: #e2b026; /* previously: #5badf0; */
+	color: #cc9c22; /* previously: #5694f1; */
 }
 
-p a { color: #5694f1; }
+p a {
+	color: #cc9c22; /* previously: #5694f1; */
+}
 
 /*Transitions*/
 a,
@@ -204,7 +207,7 @@ em, i { font-style: italic; }
 .description {
 	float: right;
 	font: italic 14px/1.4em Georgia,serif;
-	color: #aaa;
+	color: #888;
 }
 
 
@@ -213,7 +216,8 @@ em, i { font-style: italic; }
 	font-size: 30px;
 	letter-spacing: -1px;
 	color: #222;
-	font-weight: bold;
+  font-weight: bold;
+  padding-bottom: 5px;
 }
 
 .home h2 {
@@ -223,7 +227,7 @@ em, i { font-style: italic; }
 
 .post header {
 	text-align:center;
-
+	margin: 0 0 20px 0;
 }
 
 .post h1 {
@@ -242,7 +246,7 @@ em, i { font-style: italic; }
 .post h2.headline {
 	/*font: italic 22px/1.3em Georgia,serif;*/
 	font: normal 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
-	margin: -5px 0 40px 0;
+	margin: -5px 0 20px 0;
 	color: #b2b9be;
 	  font-size: 13px;
 	  text-transform: uppercase;
@@ -251,9 +255,34 @@ em, i { font-style: italic; }
 	  display: inline-block;
 }
 
+.post authors {
+  /* margin-top: 15px; */
+  /* margin-bottom: 15px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.post author {
+  margin: 12px 5px 12px 5px;
+}
+
+.post authors h2 {
+	font: normal 13px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #888;
+  margin-bottom: 0;
+}
+
+.post authors h3 {
+	font: normal 13px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #888;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
 #post-list h2 {
 	font: normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
-	color: #aaa;
+	color: #888;
 	max-width: 400px;
 	margin-top: 2px;
 }
@@ -371,11 +400,14 @@ img {
 Post List
 =========================================== */
 #post-list,#archive-list {
-	margin-top: 100px;
+	margin-top: 0px;
 }
 
 #post-list li,#archive-list li {
 	list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
 }
 
 #post-list li:last-child {
@@ -399,6 +431,46 @@ Post List
 	top: 1px;
 	font: 300 17px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
 	color: #bbb;
+  /* display: flex; */
+  /* flex-wrap: nowrap; */
+  /* flex-basis: 70px; */
+  text-align: right;
+  margin-left: 15px;
+}
+
+#post-list .postinfo-wrapper {
+  flex-grow: 11;
+  /* flex-shrink: 4; */
+  /* flex-basis: 200px; */
+}
+
+#post-list .thumbnail-wrapper {
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  /* flex-basis: 190px; */
+}
+
+#post-list .thumbnails {
+  /* These might not be necessary since we use flex below */
+  float: right;
+	position: relative;
+  /* Some margin for the date to the left */
+  margin-left: 15px;
+  /* This is so the width is always 100px and cant be shrunk */
+  width: 100px;
+  flex-shrink: 0;
+  flex-basis: 100px;
+  /* This is so it occupies all vertical space */
+	top: 1px;
+  bottom: 1px;
+  height: 100%;
+  border-radius: 3px;
+  /* The thumbnail image is a background image (to prevent overflow) */
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 #post-list-footer {
@@ -431,7 +503,7 @@ Post List
 #footer {
 	box-shadow: inset 0 1px 0 #eee;
 	padding: 40px 0 0 0;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 /* Post Page */
@@ -440,7 +512,8 @@ Post List
 }
 
 .post {
-	margin: 80px 0 0 0;
+	/* margin: 80px 0 0 0; */
+  margin: 0 0 0 0;
 }
 
 #post-meta {
@@ -457,7 +530,7 @@ Post List
 }
 
 #post-meta div span {
-	color: #aaa;
+	color: #888;
 	font-weight: 500;
 	display: block;
 }
@@ -574,7 +647,7 @@ h2.month {
 }
 
 #archive-list li a:hover,#archive-list li:hover .dates {
-	color: #5694f1;
+	color: #cc9c22; /* previously: #5694f1; */
 }
 
 #post-meta img.avatar {
@@ -595,7 +668,7 @@ h2.month {
 
 #post-list.archive.readmore a{
 	font: 400 16px/1.6 "Helvetica Neue",helvetica,Arial,sans-serif;
-	color: #5694f1;
+	color: #cc9c22; /* previously: #5694f1; */
 }
 
 #post-list.archive.readmore a:hover{
@@ -641,4 +714,14 @@ h2.month {
 	.post h2.headline { font-size: 13px; }
 	.post h1 { font-size:24px; }
 	.post h2 { font-size:20px; }
+}
+
+/* Debug */
+.bordered {
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+}
+.filled {
+  background-color: grey;
 }

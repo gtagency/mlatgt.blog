@@ -1,11 +1,13 @@
 ---
-title:  "Welcome to Jekyll!"
-date:   2013-11-10 10:18:00
+title:  "One Final Post"
+date:   2017-11-11 10:18:00
 description: Thriller Comedy Horror
-thumbnail: 2015/AnotherPost_thumbnail.png
+thumbnail: 2015/LongPost_thumbnail.png
 authors:
-- Author has no instutition:
-- But this one does: Gatech
+- Raphael Gontijo Lopes: Georgia Institute of Technology
+- Gontijo Lopes, Raphael: Gatech
+- Gontijo Lopes, Raphael: Gatech
+- Gontijo Lopes, Raphael: Gatech
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
@@ -25,3 +27,9 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
+
+You can also write in LaTeX using MathJax. The syntax is easy, for displayed mathematics:
+
+$$\alpha = f (a \dot b) \implies \frac{a}{b}$$
+
+or for in-line tex: \\(f(x)\\)

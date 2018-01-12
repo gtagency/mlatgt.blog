@@ -1,11 +1,10 @@
 ---
-title:  "Welcome to Jekyll!"
-date:   2013-11-10 10:18:00
+title:  "One More Post"
+date:   2016-11-11 10:18:00
 description: Thriller Comedy Horror
-thumbnail: 2015/AnotherPost_thumbnail.png
+thumbnail: 2015/LongPost_thumbnail.png
 authors:
-- Author has no instutition:
-- But this one does: Gatech
+- Raphael Gontijo Lopes: Gatech
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

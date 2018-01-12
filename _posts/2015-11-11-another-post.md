@@ -1,11 +1,11 @@
 ---
-title:  "Welcome to Jekyll!"
-date:   2013-11-10 10:18:00
-description: Thriller Comedy Horror
-thumbnail: 2015/AnotherPost_thumbnail.png
+title:  "This is a Post with a really long title. The title is really long Like very so very extremely long. The people who wrote this paper really went overboard"
+date:   2015-11-11 10:18:00
+description: The description is also very long to be honest. I dont know how this got past editing.
+thumbnail: 2015/LongPost_thumbnail.png
 authors:
-- Author has no instutition:
-- But this one does: Gatech
+- Raphael Gontijo Lopes: Please clap
+- Raphael Gontijo Lopes: Yo this is a long instutition name
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
