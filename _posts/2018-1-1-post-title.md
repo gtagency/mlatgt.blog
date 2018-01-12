@@ -76,7 +76,7 @@ You can use images hosted anywhere on the internet, or place images in the
 year) and do:
 
 <center>
-  <img src="{{ "/" | relative_url  }}assets/images/2018/cat.jpg" alt=" is the alt text, you should describe the image here for acessibility" width="200px"/>
+  <img src="{{ "/" | relative_url  }}assets/images/2018/cat.jpg" alt="this is the alt text, you should describe the image here for acessibility" width="200px"/>
 </center>
 <figcaption>This is how you'd add a caption</figcaption>
 
