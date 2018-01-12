@@ -5,6 +5,8 @@ description: Thriller Comedy Horror
 thumbnail: 2015/LongPost_thumbnail.png
 authors:
 - Raphael Gontijo Lopes: Gatech
+paper: https://arxiv.org
+code: google.com
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

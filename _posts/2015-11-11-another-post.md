@@ -6,6 +6,7 @@ thumbnail: 2015/LongPost_thumbnail.png
 authors:
 - Raphael Gontijo Lopes: Please clap
 - Raphael Gontijo Lopes: Yo this is a long instutition name
+paper: http://arxiv.com
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

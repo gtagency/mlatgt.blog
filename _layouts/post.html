@@ -19,6 +19,31 @@ archive: true
             {% endfor %}
             </authors>
         {% endif %}
+        {% if page.paper or page.web or page.code %}
+            <buttons>
+                {% if page.paper %}
+                    {% if page.paper contains "http" %}
+                        <a href="{{ page.paper }}" target="_blank" >paper</a>
+                    {% else %}
+                        <a href="//{{ page.paper }}" target="_blank" >paper</a>
+                    {% endif %}
+                {% endif %}
+                {% if page.web %}
+                    {% if page.web contains "http" %}
+                        <a href="{{ page.web }}" target="_blank" >web</a>
+                    {% else %}
+                        <a href="//{{ page.web }}" target="_blank" >web</a>
+                    {% endif %}
+                {% endif %}
+                {% if page.code %}
+                    {% if page.code contains "http" %}
+                        <a href="{{ page.code }}" target="_blank" >code</a>
+                    {% else %}
+                        <a href="//{{ page.code }}" target="_blank" >code</a>
+                    {% endif %}
+                {% endif %}
+            </buttons>
+        {% endif %}
     </header>
     <section id="post-body">
         {{content}}

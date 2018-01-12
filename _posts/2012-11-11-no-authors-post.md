@@ -3,6 +3,9 @@ title:  "Post with no author"
 date:   2012-11-10 10:18:00
 description: Thriller Comedy Horror
 thumbnail: 2015/AnotherPost_thumbnail.png
+paper: arxiv.org
+web: google.com
+code: github.com
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
