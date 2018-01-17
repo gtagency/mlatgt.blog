@@ -1,5 +1,5 @@
 ---
-title:  "Post Title"
+title:  "New Post Title"
 date:   2018-1-1 00:00:00
 description: Some information to appear in the front page
 <!-- THE FOLLOWING ARE OPTIONAL LINES: -->
